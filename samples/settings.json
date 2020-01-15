@@ -3,8 +3,8 @@
         "brickwall_limiter": {
             "attack": "50",
             "knee": "1",
-            "limiter_threshold": "-12",
-            "makeup_gain": "18",
+            "limiter_threshold": "-18",
+            "makeup_gain": "24",
             "release": "150",
             "soft_clip_threshold": "-2"
         },
@@ -94,7 +94,7 @@
             "output_gain": "-18"
         },
         "zap": {
-            "gain": "-9",
+            "gain": "-10",
             "attack": "1",
             "hold": "0",
             "release": "5"

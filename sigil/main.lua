@@ -12,7 +12,7 @@ function setup()
     
     osc.setup_receiver( 4242 )
     
-    px.canvas( 480, 640 )
+    px.canvas( 400, 640 )
     
     px.begin()
         px.clear( 240, 240, 240, 255 )
@@ -31,7 +31,7 @@ function draw()
         frag.uniform( "u_wind", 0.0004 )
         
         if glitchcut_x==true then
-            frag.uniform( "u_glitch_x", 0.2 )
+            frag.uniform( "u_glitch_x", 0.15 )
             glitchcut_x = false;
         else    
             frag.uniform( "u_glitch_x", 0.0 )
