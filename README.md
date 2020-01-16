@@ -1,4 +1,4 @@
-## tecnica segreta del taglio delle nebbie 
+## tecnica del taglio delle nebbie 
 
 needs hundredrabbits' `orca-c` and  my tools `pixelscript` and `substrata`
 
